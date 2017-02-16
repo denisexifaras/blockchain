@@ -18,13 +18,6 @@ under the License.
 package main
 
 import (
-	/*"errors"
-	"fmt"
-	"strconv"
-	"encoding/json"
-	"time"
-	"strings" */
-
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 )
 
