@@ -30,3 +30,6 @@ $ docker pull hyperledger/fabric-membersrvc:latest
 ```
 
 We clean up IBM code from <a href="https://github.com/IBM-Blockchain/marbles/blob/master/chaincode/marbles_chaincode.go" target="_blank">here</a>, to create `template.go`. This has the minimum number of functions required to start interacting with the blockchain.
+
+Make sure `github.com/hyperledger/fabric` is in branch `v0.6`.
+From `github.com/*/blockchain` type `go build .` and this should return errors about importing unnecessary libraries. 
