@@ -18,7 +18,7 @@ under the License.
 package main
 
 import (
-	"error"
+	"errors"
 	"fmt"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 )
