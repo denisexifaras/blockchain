@@ -33,3 +33,5 @@ We clean up IBM code from <a href="https://github.com/IBM-Blockchain/marbles/blo
 
 Make sure `github.com/hyperledger/fabric` is in branch `v0.6`.
 From `github.com/*/blockchain` type `go build .` and this should return errors about importing unnecessary libraries. 
+
+Edit `main.go` to interact with the blockchain. Start the docker container from `blockchain-docker-compose/one-peer-one-ca` using `docker-compose up` (or `docker-compose start` if already initialised once).
